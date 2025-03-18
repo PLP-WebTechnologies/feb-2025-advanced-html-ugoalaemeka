@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="Beautiful Scenery from Pexels" width="500">
+    
+    <!-- Contacts Table -->
+    <h2>Contact List</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Main St, Lagos</td>
+            <td>+2341234567890</td>
+            <td>john@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Broad St, Abuja</td>
+            <td>+2349876543210</td>
+            <td>jane@example.com</td>
+        </tr>
+        <tr>
+            <td>Michael Brown</td>
+            <td>789 Palm Rd, Kano</td>
+            <td>+2341112223333</td>
+            <td>michael@example.com</td>
+        </tr>
+        <tr>
+            <td>Lisa White</td>
+            <td>321 Oak Ave, Ibadan</td>
+            <td>+2344445556666</td>
+            <td>lisa@example.com</td>
+        </tr>
+        <tr>
+            <td>Daniel Green</td>
+            <td>654 Cedar Ln, Port Harcourt</td>
+            <td>+2347778889999</td>
+            <td>daniel@example.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <!-- Dropdown -->
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+            <option value="">-- Select --</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="ghana">Ghana</option>
+            <option value="kenya">Kenya</option>
+            <option value="south-africa">South Africa</option>
+        </select><br><br>
+        
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+        
+        <!-- Checkboxes -->
+        <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="design" name="interests" value="design">
+        <label for="design">Design</label>
+        <input type="checkbox" id="gaming" name="interests" value="gaming">
+        <label for="gaming">Gaming</label><br><br>
+        
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
